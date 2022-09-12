@@ -1,0 +1,13 @@
+.title {
+  max-width: 43.75rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #555;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.breadcrumb {
+  max-width: 43.75rem;
+  padding: 25px 0px;
+  margin: 0 auto;
+}

@@ -1,0 +1,1553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render component with undefined 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        data loading error
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      data loading error
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SharesTable Render component with enpty arr 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="section"
+      >
+        <div
+          class="table"
+        >
+          <header
+            class="table_header"
+          >
+            <div
+              class="header_item"
+            >
+              Tiker
+            </div>
+            <div
+              class="header_item"
+            >
+              Name
+            </div>
+            <div
+              class="header_item"
+            >
+              Price
+            </div>
+            <div
+              class="header_item"
+            >
+              Paracent
+            </div>
+            <div
+              class="header_item"
+            >
+              Divident
+            </div>
+            <div />
+          </header>
+          <div
+            class="list"
+          >
+            <div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  AAPL
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  279.29$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.84%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.56$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  GOOGL
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  237.08$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.1%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.46$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  MSFT
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  261.46$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.41%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.18$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  AMZN
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  260.34$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.6%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.07$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  FB
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  266.77$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.75%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.52$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  TSLA
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  272.13$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.1%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.96$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <footer
+            class="footer"
+          >
+            <a
+              class="list_link"
+              href="/target-list"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wt4i4k-MuiSvgIcon-root"
+                data-testid="ListIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+                />
+              </svg>
+              <span>
+                View list
+              </span>
+              <span>
+                0
+              </span>
+            </a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="section"
+    >
+      <div
+        class="table"
+      >
+        <header
+          class="table_header"
+        >
+          <div
+            class="header_item"
+          >
+            Tiker
+          </div>
+          <div
+            class="header_item"
+          >
+            Name
+          </div>
+          <div
+            class="header_item"
+          >
+            Price
+          </div>
+          <div
+            class="header_item"
+          >
+            Paracent
+          </div>
+          <div
+            class="header_item"
+          >
+            Divident
+          </div>
+          <div />
+        </header>
+        <div
+          class="list"
+        >
+          <div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                AAPL
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                279.29$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.84%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.56$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                GOOGL
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                237.08$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.1%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.46$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                MSFT
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                261.46$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.41%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.18$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                AMZN
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                260.34$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.6%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.07$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                FB
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                266.77$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.75%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.52$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                TSLA
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                272.13$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.1%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.96$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="footer"
+        >
+          <a
+            class="list_link"
+            href="/target-list"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wt4i4k-MuiSvgIcon-root"
+              data-testid="ListIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+              />
+            </svg>
+            <span>
+              View list
+            </span>
+            <span>
+              0
+            </span>
+          </a>
+        </footer>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SharesTable Render component with shares data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="section"
+      >
+        <div
+          class="table"
+        >
+          <header
+            class="table_header"
+          >
+            <div
+              class="header_item"
+            >
+              Tiker
+            </div>
+            <div
+              class="header_item"
+            >
+              Name
+            </div>
+            <div
+              class="header_item"
+            >
+              Price
+            </div>
+            <div
+              class="header_item"
+            >
+              Paracent
+            </div>
+            <div
+              class="header_item"
+            >
+              Divident
+            </div>
+            <div />
+          </header>
+          <div
+            class="list"
+          >
+            <div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  AAPL
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  279.29$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.84%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.56$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  GOOGL
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  237.08$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.1%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.46$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  MSFT
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  261.46$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.41%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.18$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  AMZN
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  260.34$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.6%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.07$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  FB
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  266.77$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.75%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.52$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AddCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="ticker"
+                >
+                  TSLA
+                </div>
+                <div
+                  class="name"
+                />
+                <div
+                  class="price"
+                >
+                  272.13$
+                </div>
+                <div
+                  class="change_percent"
+                >
+                  0.1%
+                </div>
+                <div
+                  class="dividend"
+                >
+                  0.96$
+                </div>
+                <button
+                  class="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="RemoveCircleOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <footer
+            class="footer"
+          >
+            <a
+              class="list_link"
+              href="/target-list"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wt4i4k-MuiSvgIcon-root"
+                data-testid="ListIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+                />
+              </svg>
+              <span>
+                View list
+              </span>
+              <span>
+                2
+              </span>
+            </a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="section"
+    >
+      <div
+        class="table"
+      >
+        <header
+          class="table_header"
+        >
+          <div
+            class="header_item"
+          >
+            Tiker
+          </div>
+          <div
+            class="header_item"
+          >
+            Name
+          </div>
+          <div
+            class="header_item"
+          >
+            Price
+          </div>
+          <div
+            class="header_item"
+          >
+            Paracent
+          </div>
+          <div
+            class="header_item"
+          >
+            Divident
+          </div>
+          <div />
+        </header>
+        <div
+          class="list"
+        >
+          <div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                AAPL
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                279.29$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.84%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.56$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                GOOGL
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                237.08$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.1%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.46$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                MSFT
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                261.46$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.41%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.18$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                AMZN
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                260.34$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.6%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.07$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                FB
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                266.77$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.75%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.52$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="AddCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="ticker"
+              >
+                TSLA
+              </div>
+              <div
+                class="name"
+              />
+              <div
+                class="price"
+              >
+                272.13$
+              </div>
+              <div
+                class="change_percent"
+              >
+                0.1%
+              </div>
+              <div
+                class="dividend"
+              >
+                0.96$
+              </div>
+              <button
+                class="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="RemoveCircleOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="footer"
+        >
+          <a
+            class="list_link"
+            href="/target-list"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-wt4i4k-MuiSvgIcon-root"
+              data-testid="ListIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+              />
+            </svg>
+            <span>
+              View list
+            </span>
+            <span>
+              2
+            </span>
+          </a>
+        </footer>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SharesTable Render component with undefined 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        data loading error
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      data loading error
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

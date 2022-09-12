@@ -1,0 +1,56 @@
+.row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr;
+  max-width: 43.75rem;
+  padding: 10px 5px;
+  border-top: 1px solid rgba(153, 153, 153, 0.3);
+  align-items: center;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  gap: 20px;
+}
+.row:hover {
+  background-color: rgba(153, 153, 153, 0.1);
+}
+.ticker {
+  display: flex;
+  font-size: 0.75rem;
+  background-color: rgba(137, 43, 226, 0.7);
+  border-radius: 3px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 5px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change_percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dividend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #888;
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+}
+.button:hover {
+  color: rgba(0, 0, 255, 0.6);
+}
