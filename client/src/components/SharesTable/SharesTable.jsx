@@ -1,8 +1,8 @@
 import style from "./SharesTable.module.css";
-import TableSharesItem from "./TableSharesItem/TableSharesItem";
+import TableSharesItem from "./SharesTableItem/SharesTableItem";
 import ListIcon from "@mui/icons-material/List";
 import ListsEmpty from "./ListsEmpty/ListsEmpty";
-import { getaSharesTrackedTicker } from "../../redux/selectors/sharesSelectors";
+import { getSharesTrackedTicker } from "../../redux/selectors/sharesSelectors";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -19,10 +19,31 @@ const SortButtonIcon = ({ sortSetting }) => {
   return <KeyboardArrowDownIcon />;
 };
 
+const SortButton = ({
+  sort,
+  buttonSortParam,
+  currenSortParam,
+  handlCkick,
+  sortSeting,
+  name,
+  sharesList
+}) => {
+  return (
+    <Button disabled={sharesList.length === 0} onClick={() => handlCkick(buttonSortParam)}>
+      <span>{name}</span>
+      {sort && currenSortParam === buttonSortParam ? (
+        <SortButtonIcon sortSetting={sortSeting} />
+      ) : (
+        <span></span>
+      )}
+    </Button>
+  );
+};
+
 const SharesTable = ({ sharesList }) => {
   // Tickers that are tracked
   const sharesTrackedTicker = useSelector((state) =>
-    getaSharesTrackedTicker(state)
+    getSharesTrackedTicker(state)
   );
   const [sort, setSort] = useState(false);
   const [sortSetting, setSortSetting] = useState(false);
@@ -44,25 +65,25 @@ const SharesTable = ({ sharesList }) => {
   }
 
   // function to sort an array
-  const sortArr = (arr) => {
-    let sortArr = arr.map((item) => ({ ...item }));
+  const sortArray = (arr) => {
+    let copiedArray = arr.map((item) => ({ ...item }));
     if (sort) {
-      if (isNaN(+sortArr[0][sortParam])) {
-        sortArr = sortArr.sort((a, b) => {
+      if (isNaN(+copiedArray[0][sortParam])) {
+        copiedArray = copiedArray.sort((a, b) => {
           if (a[sortParam].toLowerCase() < b[sortParam].toLowerCase())
             return -1;
           if (a[sortParam].toLowerCase() > b[sortParam].toLowerCase()) return 1;
           return 0;
         });
       } else {
-        sortArr = sortArr.sort((a, b) => {
+        copiedArray = copiedArray.sort((a, b) => {
           return b[sortParam] - a[sortParam];
         });
       }
       if (sortSetting === "down") {
-        return sortArr;
+        return copiedArray;
       } else {
-        return sortArr.reverse();
+        return copiedArray.reverse();
       }
     } else {
       return arr;
@@ -84,36 +105,16 @@ const SharesTable = ({ sharesList }) => {
     }
   };
 
-  const sortSharesList = sortArr(sharesList);
+  const sortedSharesList = sortArray(sharesList);
 
   // Made lists of shares
-  const shares = sortSharesList.map((share, index) => (
+  const shares = sortedSharesList.map((share, index) => (
     <TableSharesItem
       sharesTrackedTicker={sharesTrackedTicker}
       key={index}
       share={share}
     />
   ));
-
-  const SortButton = ({
-    sort,
-    buttonSortParam,
-    currenSortParam,
-    handlCkick,
-    sortSeting,
-    name,
-  }) => {
-    return (
-      <Button onClick={() => handlCkick(buttonSortParam)}>
-        <span>{name}</span>
-        {sort && currenSortParam === buttonSortParam ? (
-          <SortButtonIcon sortSetting={sortSeting} />
-        ) : (
-          <span></span>
-        )}
-      </Button>
-    );
-  };
 
   return (
     <div className={style.section}>
@@ -127,6 +128,7 @@ const SharesTable = ({ sharesList }) => {
               handlCkick={changeSortSetting}
               name={"ticker"}
               sortSeting={sortSetting}
+              sharesList={sharesList}
             />
           </div>
           <div className={style.header_item}>
@@ -137,6 +139,7 @@ const SharesTable = ({ sharesList }) => {
               handlCkick={changeSortSetting}
               name={"name"}
               sortSeting={sortSetting}
+              sharesList={sharesList}
             />
           </div>
           <div className={style.header_item}>
@@ -147,6 +150,7 @@ const SharesTable = ({ sharesList }) => {
               handlCkick={changeSortSetting}
               name={"price"}
               sortSeting={sortSetting}
+              sharesList={sharesList}
             />
           </div>
           <div className={style.header_item}>
@@ -157,6 +161,7 @@ const SharesTable = ({ sharesList }) => {
               handlCkick={changeSortSetting}
               name={"percent"}
               sortSeting={sortSetting}
+              sharesList={sharesList}
             />
           </div>
           <div className={style.header_item}>
@@ -167,6 +172,7 @@ const SharesTable = ({ sharesList }) => {
               handlCkick={changeSortSetting}
               name={"dividend"}
               sortSeting={sortSetting}
+              sharesList={sharesList}
             />
           </div>
         </header>

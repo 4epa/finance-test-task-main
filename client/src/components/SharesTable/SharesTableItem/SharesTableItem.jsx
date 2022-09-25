@@ -1,4 +1,4 @@
-import style from "./TableSharesItem.module.css";
+import style from "./SharesTableItem.module.css";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 import {

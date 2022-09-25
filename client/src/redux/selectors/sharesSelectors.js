@@ -2,6 +2,6 @@ export const getShares = (state) => {
   return state.shares.sharesList
 }
 
-export const getaSharesTrackedTicker = (state) => {
+export const getSharesTrackedTicker = (state) => {
   return state.shares.sharesTrackedTicker
 }
