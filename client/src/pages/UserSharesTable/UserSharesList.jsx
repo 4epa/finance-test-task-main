@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import SharesTable from "../SharesTable/SharesTable";
+import SharesTable from "../../components/SharesTable/SharesTable";
 import { getSharesTrackedTicker } from "../../redux/selectors/sharesSelectors";
 import * as React from "react";
 import Typography from "@mui/material/Typography";

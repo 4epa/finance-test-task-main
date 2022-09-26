@@ -1,6 +1,6 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import SharesTable from "../SharesTable/SharesTable";
-import * as reduxHooksreduxHooks from "react-redux";
+import * as reduxHooks from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
 
 jest.mock("react-redux");
@@ -71,33 +71,22 @@ const shares = [
 describe("SharesTable", () => {
   it("Render component with shares data", () => {
     jest.spyOn(reduxHooks, "useSelector").mockReturnValue(["TSLA", "NASDAQ"]);
-
-    const component = render(
+    render(
       <Router>
         <SharesTable sharesList={shares} />
       </Router>
     );
+    const buttonText = screen.getByText(/view list 2/i);
 
-    expect(component).toMatchSnapshot();
-  });
-
-  it("Render component with enpty arr", () => {
-    jest.spyOn(reduxHooks, "useSelector").mockReturnValue([]);
-
-    const component = render(
-      <Router>
-        <SharesTable sharesList={shares} />
-      </Router>
-    );
-
-    expect(component).toMatchSnapshot();
+    expect(buttonText).toBeInTheDocument();
   });
 
   it("Render component with undefined", () => {
     jest.spyOn(reduxHooks, "useSelector").mockReturnValue([]);
+    render(<SharesTable sharesList={undefined} />);
 
-    const component = render(<SharesTable sharesList={undefined} />);
+    const buttonText = screen.getByText(/data loading error/i);
 
-    expect(component).toMatchSnapshot();
+    expect(buttonText).toBeInTheDocument();
   });
 });

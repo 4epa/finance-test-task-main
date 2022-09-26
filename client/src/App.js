@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getShares } from "./redux/selectors/sharesSelectors";
 import { getSharesDataThunk, getTargetTicketThunk } from "./redux/sharesSlice";
-import UserSharesList from "./components/UserSharesTable/UserSharesList";
-import { connectToServer, startShowQoute } from "./api/api";
-import HomePage from "./components/HomePage/HomePage";
+import UserSharesList from "./pages/UserSharesTable/UserSharesList";
+import { connectToServer, startShowQuote } from "./api/api";
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,7 +18,7 @@ const App = () => {
   // Connect to server and data request
   useEffect(() => {
     connectToServer();
-    startShowQoute();
+    startShowQuote();
     setIsConnected(true);
     setShowQuotes(true);
     dispatch(getTargetTicketThunk());

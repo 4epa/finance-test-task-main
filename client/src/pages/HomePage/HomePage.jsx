@@ -1,4 +1,4 @@
-import SharesTable from "../SharesTable/SharesTable";
+import SharesTable from "../../components/SharesTable/SharesTable";
 import style from "./HomePage.module.css"
 import Typography from "@mui/material/Typography";
 import Breadcrumbs from "@mui/material/Breadcrumbs";

@@ -6,39 +6,9 @@ import { getSharesTrackedTicker } from "../../redux/selectors/sharesSelectors";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import Button from "@mui/material/Button";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import SortButton from "./SortButton/SortButton";
 import { useEffect } from "react";
 import { setTargetTicket } from "../../api/api";
-
-const SortButtonIcon = ({ sortSetting }) => {
-  if (sortSetting === "up") {
-    return <KeyboardArrowUpIcon />;
-  }
-  return <KeyboardArrowDownIcon />;
-};
-
-const SortButton = ({
-  sort,
-  buttonSortParam,
-  currenSortParam,
-  handlCkick,
-  sortSeting,
-  name,
-  sharesList
-}) => {
-  return (
-    <Button disabled={sharesList.length === 0} onClick={() => handlCkick(buttonSortParam)}>
-      <span>{name}</span>
-      {sort && currenSortParam === buttonSortParam ? (
-        <SortButtonIcon sortSetting={sortSeting} />
-      ) : (
-        <span></span>
-      )}
-    </Button>
-  );
-};
 
 const SharesTable = ({ sharesList }) => {
   // Tickers that are tracked
@@ -48,6 +18,8 @@ const SharesTable = ({ sharesList }) => {
   const [sort, setSort] = useState(false);
   const [sortSetting, setSortSetting] = useState(false);
   const [sortParam, setSortParam] = useState(null);
+
+  console.log(sharesTrackedTicker);
 
   useEffect(() => {
     if (sortParam !== null) {
@@ -125,9 +97,9 @@ const SharesTable = ({ sharesList }) => {
               sort={sort}
               buttonSortParam={"ticker"}
               currenSortParam={sortParam}
-              handlCkick={changeSortSetting}
+              handleClick={changeSortSetting}
               name={"ticker"}
-              sortSeting={sortSetting}
+              sortSetting={sortSetting}
               sharesList={sharesList}
             />
           </div>
@@ -136,9 +108,9 @@ const SharesTable = ({ sharesList }) => {
               sort={sort}
               buttonSortParam={"fullName"}
               currenSortParam={sortParam}
-              handlCkick={changeSortSetting}
+              handleClick={changeSortSetting}
               name={"name"}
-              sortSeting={sortSetting}
+              sortSetting={sortSetting}
               sharesList={sharesList}
             />
           </div>
@@ -147,9 +119,9 @@ const SharesTable = ({ sharesList }) => {
               sort={sort}
               buttonSortParam={"price"}
               currenSortParam={sortParam}
-              handlCkick={changeSortSetting}
+              handleClick={changeSortSetting}
               name={"price"}
-              sortSeting={sortSetting}
+              sortSetting={sortSetting}
               sharesList={sharesList}
             />
           </div>
@@ -158,9 +130,9 @@ const SharesTable = ({ sharesList }) => {
               sort={sort}
               buttonSortParam={"change_percent"}
               currenSortParam={sortParam}
-              handlCkick={changeSortSetting}
+              handleClick={changeSortSetting}
               name={"percent"}
-              sortSeting={sortSetting}
+              sortSetting={sortSetting}
               sharesList={sharesList}
             />
           </div>
@@ -169,9 +141,9 @@ const SharesTable = ({ sharesList }) => {
               sort={sort}
               buttonSortParam={"dividend"}
               currenSortParam={sortParam}
-              handlCkick={changeSortSetting}
+              handleClick={changeSortSetting}
               name={"dividend"}
-              sortSeting={sortSetting}
+              sortSetting={sortSetting}
               sharesList={sharesList}
             />
           </div>
@@ -182,8 +154,9 @@ const SharesTable = ({ sharesList }) => {
         <footer className={style.footer}>
           <NavLink className={style.list_link} to="/target-list">
             <ListIcon sx={{ fontSize: "1.3rem" }} />
-            <span>View list</span>
-            <span>{sharesTrackedTicker.length}</span>
+            <span>{`View list ${
+              sharesTrackedTicker === null ? 0 : sharesTrackedTicker.length
+            }`}</span>
           </NavLink>
         </footer>
       </div>
